@@ -1,0 +1,40 @@
+# Terraform-specific files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Sensitive data
+*.tfvars
+*.tfvars.json
+
+# Ignored directories
+.terraform.lock.hcl
+.terraform.lock.hcl.backup
+.terraform.lock.hcl.old
+.terraform.tfstate.backup
+
+# Logs
+crash.log
+crash.*.log
+
+# Compiled files
+*.tfplan
+
+# Editor backups
+*~
+*.swp
+
+# Mac-specific files
+.DS_Store
+
+# Other version control metadata
+.git/
+.svn/
+.hg/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
